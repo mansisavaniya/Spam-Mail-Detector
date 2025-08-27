@@ -19,3 +19,10 @@ o Train a simple model (Naive Bayes, Logistic Regression).
 o Measure performance with accuracy, precision, or F1 score.
 
  Skills gained: Text preprocessing, feature extraction, basic NLP, classification.
+
+->used "Enron CSV from Github: 
+url: https://raw.githubusercontent.com/MWiechmann/enron_spam_data/master/enron_spam_data.csv
+
+-> TfidfVectorizer : converts text-> numeric features.
+-> MultinomialNB and LogisticRegression are standard text classifiers.
+->LineaerSVC provides an additional strong baseline.
